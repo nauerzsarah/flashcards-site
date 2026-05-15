@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>English Flashcards</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <button onclick="goBackHome()">⬅ Home</button>
+
+  <div class="card" onclick="flipCard()">
+    <h2 id="front"></h2>
+    <p id="back"></p>
+    <small id="example"></small>
+  </div>
+
+  <button onclick="prevCard()">⬅</button>
+  <button onclick="nextCard()">➡</button>
+
+  <script type="module">
+    import { loadCards } from "./js/flashcards.js";
+    import "./js/app.js";
+
+    loadCards("en");
+  </script>
+
+</body>
+</html>
