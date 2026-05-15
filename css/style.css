@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  padding: 60px 20px;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.lang-btn {
+  background: #2563eb;
+  padding: 20px 40px;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.lang-btn:hover {
+  background: #1d4ed8;
+  transform: scale(1.05);
+}
